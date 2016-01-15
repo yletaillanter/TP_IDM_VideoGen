@@ -1,0 +1,64 @@
+Author: "VALLEE Hugo"
+Version: 1
+Date: "05/11/2015"
+
+VideoGen {
+	mandatory videoseq v1 "bwaah.mp4"{
+		"Just a dog... playing with balls..."
+		48
+	}
+	
+		mandatory videoseq v1 "dog.mp4"{
+		"Just a dog... playing with balls..."
+		48
+	}
+	
+		mandatory videoseq v1 "dramatic.mp4"{
+		"Just a dog... playing with balls..."
+		48
+	}
+	
+		mandatory videoseq v1 "foot.mp4"{
+		"Just a dog... playing with balls..."
+		48
+	}
+	
+		mandatory videoseq v1 "lizard.mp4"{
+		"Just a dog... playing with balls..."
+		48
+	}
+	
+		mandatory videoseq v1 "music.mp4"{
+		"Just a dog... playing with balls..."
+		48
+	}
+		mandatory videoseq v1 "pocahontas.mp4"{
+		"Just a dog... playing with balls..."
+		48
+	}
+		mandatory videoseq v1 "washing.mp4"{
+		"Just a dog... playing with balls..."
+		48
+	}
+	
+	optional videoseq v2 "bwaah.mp4" {
+		"The second video, it is optional"
+	}
+	
+	alternatives v3 {
+		videoseq "dog.mp4"{
+			"Just a dog... playing with balls..."
+		}
+		videoseq "kevin.mp4" {
+			"The second alternative video"
+		}
+	}
+	optional videoseq v4 "jacob.mp4" {
+		"An optional video"
+	}
+	
+	mandatory videoseq v5 "washing.mp4"{
+		"The last video"
+		42
+	}
+}

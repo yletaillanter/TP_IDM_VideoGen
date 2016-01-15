@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: VideoGenerator
+Bundle-SymbolicName: VideoGenerator
+Bundle-Version: 1.0.0.qualifier
+Export-Package: .
+Require-Bundle: org.xtext.example.videogen;bundle-version="1.0.0",
+ org.xtext.example.videogen.ui;bundle-version="1.0.0",
+ PlaylistMM;bundle-version="1.0.0",
+ PlaylistMM.edit;bundle-version="1.0.0",
+ PlaylistMM.editor;bundle-version="1.0.0",
+ PlaylistMM.tests;bundle-version="1.0.0"

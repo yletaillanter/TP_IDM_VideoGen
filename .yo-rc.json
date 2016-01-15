@@ -1,0 +1,20 @@
+{
+  "generator-jhipster": {
+    "baseName": "jhipstervideogen",
+    "packageName": "com.istic.jhipstervideogen",
+    "packageFolder": "com/istic/jhipstervideogen",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "8",
+    "rememberMeKey": "159790efd7a46bc1b9d6da0d39572576fbf01975"
+  }
+}

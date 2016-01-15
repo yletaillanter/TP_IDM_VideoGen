@@ -1,0 +1,50 @@
+<div>
+    <h2>Videogen</h2>
+    <h4 translate='Welcome, generate a unique playlist by clicking on "Generate", or choose your own by entering into "Vignette Mode"'>Welcome, generate a playlist by clicking on "Generate", or choose your own by entering into "Vignette Mode"</h4>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <button class="btn btn-primary" ng-click="generate()">
+                   Generate
+                </button>
+                <button class="btn btn-primary" ng-click="vignetteMode()">
+                   Vignette Mode
+                </button>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        </br>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-8" ng-show="normalMode">
+                <div class="player" style="width:100%">
+                </div>
+            </div>
+            <div class="col-md-8" ng-show="!normalMode">
+                <div class="row">
+                    <div class="col-md-8" ng-show="selection.length > 0">
+                        <button class="btn btn-default" ng-click="vignetteMode()">
+                           Reset Selection
+                        </button>
+                        <button class="btn btn-default" ng-click="runSelection()">
+                           Run selection
+                        </button>
+                    </div>
+                </div>
+                            </br >
+                <div style="width:100%">
+                    <div ng-repeat="vignette in vignettes">
+                        <div class="col-md-4" style="margin-bottom:10px">
+                            <button ng-click="addToPlaylist(vignette)"><img id="{{vignette.substring(0, vignette.length - 8)}}" src="assets/vignettes/{{vignette}}" width="200px" height="120px"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+   
+</div>

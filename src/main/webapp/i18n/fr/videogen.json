@@ -1,0 +1,19 @@
+{
+    "jhipstervideogenApp": {
+        "videogen" : {
+            "home": {
+                "title": "Videogens",
+                "createLabel": "Créer un nouveau Videogen",
+                "createOrEditLabel": "Créer ou éditer un Videogen"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Videogen {{ id }} ?"
+            },
+            "detail": {
+                "title": "Videogen"
+            },
+            "name": "Name"
+        }
+    }
+}
+
