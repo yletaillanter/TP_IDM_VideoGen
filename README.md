@@ -1,5 +1,7 @@
 By Hugo Vallée & Yoann Le Taillanter
 
+Screencast of our website : https://www.dropbox.com/s/d9o6bbw4h1hgktr/videogen_screencast_vallee_letaillanter.mov?dl=0
+
 # Videogen
 
 Videogen is a web configurator from a textual specification. You can generate playlists of video. It is a project of Master degree in model engineering. You will find on this readme: 
